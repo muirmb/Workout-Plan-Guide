@@ -1,1 +1,3 @@
 # Workout-Plan-Guide
+## Introduction
+  People of all ages struggle to lose weight and stay in shape.  Losing weight improves one's physical and mental health, especially when they see profound results.  I believe their weight-loss problems have little to do with diet and a lot to do with finding the best form of exercise for their current fitness level.  This will be a website where anyone looking to lose weight can enter some personal information like height, weight, and age, and the website will present the best workout plan for the user.  As the user continues on their weight-loss journey, they can revisit the website, enter their new information, and receive a new plan.

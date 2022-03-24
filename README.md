@@ -13,3 +13,5 @@ We understand the pervading inequality in the field of technology today. We also
 We also made sure that there exists a category for every type of person in our product. Therefore, no matter your background or circumstances, you can make use of our product to be healthier and happier.
 
 If you have any concerns about inclusion relating to this product, please open an issue in this github repository and we will try to address it promptly.
+
+## Feel free to fork the repository and edit it based on your clients' needs!

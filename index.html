@@ -5,46 +5,170 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Bare - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <title>Workout Guide</title>
+        <script type="text/javascript">
+          document.addEventListener("DOMContentLoaded", () =>{
+            lwhb = document.getElementById("lwhb");
+            lwhb.parentNode.removeChild(lwhb);
+            lwlb = document.getElementById("lwlb");
+            lwlb.parentNode.removeChild(lwlb);
+            gmhb = document.getElementById("gmhb");
+            gmhb.parentNode.removeChild(gmhb);
+            gmlb = document.getElementById("gmlb");
+            gmlb.parentNode.removeChild(gmlb);
+            var home;
+            document.getElementById("lose_weight_hb").addEventListener("click", () => {
+              home = document.getElementById("home");
+              home.parentNode.removeChild(home);
+              document.body.appendChild(lwhb);
+              document.getElementById("lwhb_home").addEventListener("click", () => {
+                lwhb = document.getElementById("lwhb");
+                lwhb.parentNode.removeChild(lwhb);
+                document.body.appendChild(home);
+              });
+            });
+            document.getElementById("lose_weight_lb").addEventListener("click", () => {
+              home = document.getElementById("home");
+              home.parentNode.removeChild(home);
+              document.body.appendChild(lwlb);
+              document.getElementById("lwlb_home").addEventListener("click", () => {
+                lwlb = document.getElementById("lwlb");
+                lwlb.parentNode.removeChild(lwlb);
+                document.body.appendChild(home);
+              });
+            });
+            document.getElementById("gain_muscle_hb").addEventListener("click", () => {
+              home = document.getElementById("home");
+              home.parentNode.removeChild(home);
+              document.body.appendChild(gmhb);
+              document.getElementById("gmhb_home").addEventListener("click", () => {
+                gmhb = document.getElementById("gmhb");
+                gmhb.parentNode.removeChild(gmhb);
+                document.body.appendChild(home);
+              });
+            });
+            document.getElementById("gain_muscle_lb").addEventListener("click", () => {
+              home = document.getElementById("home");
+              home.parentNode.removeChild(home);
+              document.body.appendChild(gmlb);
+              document.getElementById("gmlb_home").addEventListener("click", () => {
+                gmlb = document.getElementById("gmlb");
+                gmlb.parentNode.removeChild(gmlb);
+                document.body.appendChild(home);
+              });
+            });
+          });
+        </script>
     </head>
-    <body>
+    <body style="background-color: #eeaaaa">
+      <div style="background-color: maroon; font-family: Copperplate; font-size: 300%; text-align: center; color: white">Workout Guide</div>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <!-- Page content-->
-        <div class="container">
-            <div class="text-center mt-5">
-                <h1>A Bootstrap 5 Starter Template</h1>
-                <p class="lead">A complete project boilerplate built with Bootstrap</p>
-                <p>Bootstrap v5.1.3</p>
+        <div class="container" id="home">
+            <div class="text-center mt-5" style="text-align: center">
+                <h1>Looking to lose weight? Click below!</h1>
+                <input type="submit" id="lose_weight_hb" value="Get started!">
+                <h1>Looking to keep weight off? Click below!</h1>
+                <input type="submit" id="lose_weight_lb" value="Get started!">
+                <h1>Looking to build muscle with a high BMI? Click below!</h1>
+                <input type="submit" id="gain_muscle_hb" value="Get started!">
+                <h1>Looking to build muscle with a low BMI? Click below!</h1>
+                <input type="submit" id="gain_muscle_lb" value="Get started!">
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <div class="container" id="lwhb">
+            <div class="text-center mt-5">
+                <h1>Here's how to lose weight with a high BMI</h1>
+
+                <!--This is the div for each flashcard
+                    Copy and paste this as many times as needed-->
+                <div style="border: 1px solid black; height: 400px; width: 50%; margin-left:25%; text-align:center">
+                  <h2>WORKOUT NAME</h2>
+                  <img src="dog.png" alt= "descibe image here for accessibility issues">
+                  <p><b>Why:</b> REASON WHY <br>
+                     <b>How:</b> EXPLAIN HOW <br>
+                     <b>What you'll need:</b> FILL IN
+                  </p>
+                </div>
+                <!--End of the flashcard div-->
+
+
+                <div style="border: 1px solid black; height: 400px; width: 50%; margin-left:25%; text-align:center">
+                  <h2>WORKOUT NAME</h2>
+                  <img src="dog.png" alt= "descibe image here for accessibility issues">
+                  <p><b>Why:</b> REASON WHY <br>
+                     <b>How:</b> EXPLAIN HOW <br>
+                     <b>What you'll need:</b> FILL IN
+                  </p>
+                </div>
+                <input type="submit" id="lwhb_home" value="Home">
+            </div>
+        </div>
+        <div class="container" id="lwlb">
+            <div class="text-center mt-5">
+                <h1>Here's how to keep weight off</h1>
+                <div style="border: 1px solid black; height: 400px; width: 50%; margin-left:25%; text-align:center">
+                  <h2>WORKOUT NAME</h2>
+                  <img src="dog.png" alt= "descibe image here for accessibility issues">
+                  <p><b>Why:</b> REASON WHY <br>
+                     <b>How:</b> EXPLAIN HOW <br>
+                     <b>What you'll need:</b> FILL IN
+                  </p>
+                </div>
+                <div style="border: 1px solid black; height: 400px; width: 50%; margin-left:25%; text-align:center">
+                  <h2>WORKOUT NAME</h2>
+                  <img src="dog.png" alt= "descibe image here for accessibility issues">
+                  <p><b>Why:</b> REASON WHY <br>
+                     <b>How:</b> EXPLAIN HOW <br>
+                     <b>What you'll need:</b> FILL IN
+                  </p>
+                </div>
+                <input type="submit" id="lwlb_home" value="Home">
+            </div>
+        </div>
+        <div class="container" id="gmhb">
+            <div class="text-center mt-5">
+                <h1>Here's how to build muscle with a high BMI</h1>
+                <div style="border: 1px solid black; height: 400px; width: 50%; margin-left:25%; text-align:center">
+                  <h2>WORKOUT NAME</h2>
+                  <img src="dog.png" alt= "descibe image here for accessibility issues">
+                  <p><b>Why:</b> REASON WHY <br>
+                     <b>How:</b> EXPLAIN HOW <br>
+                     <b>What you'll need:</b> FILL IN
+                  </p>
+                </div>
+                <div style="border: 1px solid black; height: 400px; width: 50%; margin-left:25%; text-align:center">
+                  <h2>WORKOUT NAME</h2>
+                  <img src="dog.png" alt= "descibe image here for accessibility issues">
+                  <p><b>Why:</b> REASON WHY <br>
+                     <b>How:</b> EXPLAIN HOW <br>
+                     <b>What you'll need:</b> FILL IN
+                  </p>
+                </div>
+                <input type="submit" id="gmhb_home" value="Home">
+            </div>
+        </div>
+        <div class="container" id="gmlb">
+            <div class="text-center mt-5">
+                <h1>Here's how to build muscle with a low BMI</h1>
+                <div style="border: 1px solid black; height: 400px; width: 50%; margin-left:25%; text-align:center">
+                  <h2>WORKOUT NAME</h2>
+                  <img src="dog.png" alt= "descibe image here for accessibility issues">
+                  <p><b>Why:</b> REASON WHY <br>
+                     <b>How:</b> EXPLAIN HOW <br>
+                     <b>What you'll need:</b> FILL IN
+                  </p>
+                </div>
+                <div style="border: 1px solid black; height: 400px; width: 50%; margin-left:25%; text-align:center">
+                  <h2>WORKOUT NAME</h2>
+                  <img src="dog.png" alt= "descibe image here for accessibility issues">
+                  <p><b>Why:</b> REASON WHY <br>
+                     <b>How:</b> EXPLAIN HOW <br>
+                     <b>What you'll need:</b> FILL IN
+                  </p>
+                </div>
+                <input type="submit" id="gmlb_home" value="Home">
+            </div>
+        </div>
     </body>
 </html>

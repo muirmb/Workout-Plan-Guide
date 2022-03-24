@@ -9,6 +9,11 @@ Feel free to add new features and create pull requests!
 
 If you have any issues with the code, feel free to open up an issue and we will try to respond promptly!
 
+## License
+This product's license in the Unlicense. In other words, this software is dedicated to the public domain.
+
+For more information, see: https://unlicense.org/
+
 ## Ethics
 In technology today, there exist several ethical concerns that one must examine when building a product. Designers to be cognizant of ways their product can unintentionally be used to harm individuals. Therefore, we chose to build a product that is designed to benefit every user, no matter their current situation. We created exercise categories for every type of person, so that everyone can improve their life using our training manual.
 

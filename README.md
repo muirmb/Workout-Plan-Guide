@@ -7,7 +7,7 @@ Get started by cloning this repository and opening index.html in your favorite t
 
 Feel free to add new features and create pull requests!
 
-If you have any issues with the code, feel free to open up an issue and we will try to respond promptly!
+If you have any issues with the code, you can open up an issue and we will try to respond promptly!
 
 ## License
 This product's license in the Unlicense. In other words, this software is dedicated to the public domain.

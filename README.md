@@ -17,7 +17,7 @@ If you have any concerns about the ethics of this product, please open an issue 
 ## Inclusion
 We understand the pervading inequality in the field of technology today. We also understand that within discussions around exercise, there often exists an issue of discrimination and harassment based on one's body type. Under no circumstances do we condone or support any harassment of individuals based on race, gender, body type, or any other components of their identity.
 
-We also made sure that there exists a category for every type of person in our product. Therefore, no matter your background or circumstances, you can make use of our product to be healthier and happier.
+We also made sure that there exists a category for every type of person in our product. Therefore, no matter your background or circumstances, you can make use of our product to be healthier and happier. In each category we include exercises that one can do without equipment for those who do not have access to a gym.
 
 If you have any concerns about inclusion relating to this product, please open an issue in this github repository and we will try to address it promptly.
 

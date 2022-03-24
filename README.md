@@ -2,6 +2,13 @@
 ## Introduction
   People of all ages struggle to lose weight and stay in shape.  Losing weight improves one's physical and mental health, especially when they see profound results. Often, weight-loss problems have little to do with diet and a lot to do with finding the best form of exercise for one's current fitness level. This product is a website that users can nagivate based on their fitness goals to receive exercise advice and specific exercises to perform tailored to their goals.
 
+## Help Out
+Get started by cloning this repository and opening index.html in your favorite text editor!
+
+Feel free to add new features and create pull requests!
+
+If you have any issues with the code, feel free to open up an issue and we will try to respond promptly!
+
 ## Ethics
 In technology today, there exist several ethical concerns that one must examine when building a product. Designers to be cognizant of ways their product can unintentionally be used to harm individuals. Therefore, we chose to build a product that is designed to benefit every user, no matter their current situation. We created exercise categories for every type of person, so that everyone can improve their life using our training manual.
 
